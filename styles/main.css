@@ -1,0 +1,46 @@
+.header-wrapper {
+    background-color: black;
+    color: white;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin: -15px;
+
+    padding: 25px;
+}
+
+.title-logo-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.logo img {
+    height: 100px;
+
+    position: relative;
+    right: -50px;
+    top: 25px;
+}
+
+.title {
+    position: relative;
+    right: -450px;
+
+    color: goldenrod;
+}
+
+.underlying-text {
+    position: relative;
+    top: -25px;
+
+    color: gold;
+}
+
+.links a {
+    color: white;
+
+    position: relative;
+    left: -50px;
+}
